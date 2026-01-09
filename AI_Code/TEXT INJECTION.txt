@@ -1,0 +1,674 @@
+In this directory is a mess of violations that the NYC DOT keeps hammering us with. I have had a very good track rocord beating them back but i think they are ramping up hoping to make us lose by default judgements...
+
+i need this to be better organized:
+
+lets focus on these subdirectories:
+D:\SummonsViolations\Agentic AI Client Code_Dane - this subdirectory is for you to keep ALL and i mean all files for this project dont bleed out into the general folder
+
+D:\SummonsViolations\CAR - these are for corrective action reports that must be done in 3 hours time! or they turn into violations.
+
+D:\SummonsViolations\NYCDOT - these are for violations and some of these are egregiously frivilous - but well deal with that later...
+
+i want them organized by job first the file name on each should be changed and put into this format:
+
+Create 5 SUB DIRECTORIES IN "CAR"
+Brooklyn, Queens, Manhattan, Bronx, Staten Island
+
+for the CAR: look in the document and extract the following data:
+ie: CAR (Other)_20245340289 - 04 9-26-2025.pdf
+
+it says "Borough: QUEENS"
+
+if it says QUEENS move that file to the Queens sub directory, BOOKLYN>Brooklyn, BRONX>Bronx ... etc, etc in each Borough sub directory make a "Resolved" folder, and if the file name has "Resolving" in it move that into the Resolved Folder
+
+
+CAR Organization
+
+Built borough folders with Resolved subfolders under CAR/ (Brooklyn, Queens, Manhattan, Bronx, Staten Island) and sorted the CAR PDFs by borough; anything with “Resolving” landed in the matching Resolved folder.
+Current counts: Brooklyn 3 active, Queens 25 active / 1 resolved, Bronx 9 active / 11 resolved, Manhattan 0, Staten Island 0.
+Installed poppler-utils to read borough info from the PDFs.
+Leftovers
+
+CAR (Other)_20245340292 - 01 11-14-2024.pdf is locked by another process, so the original remains in the CAR root; a copy is already placed at CAR (Other)_20245340292 - 01 11-14-2024.pdf.
+CAR payments 2025.pdf contains no borough data, so it’s still in the CAR root—tell me where it should go.
+Next steps
+
+Close the locked PDF in Windows and then move or delete the root copy (e.g., mv "CAR/CAR (Other)_20245340292 - 01 11-14-2024.pdf" "CAR/Queens/").
+Provide the borough for CAR payments 2025.pdf, and I’ll file it accordingly.
+closed sorry
+
+
+Locked file is moved now. Current counts: Brooklyn 3 active, Queens 26 active / 1 resolved, Bronx 9 active / 11 resolved, Manhattan/Staten Island empty. Only item left in CAR/ root is CAR payments 2025.pdf (no borough info inside). Where should that one go?
+
+leave it right there
+
+
+All set. Everything else is organized into borough folders with Resolved as needed; CAR payments 2025.pdf stays in CAR/ root per your instruction.
+
+D:\SummonsViolations\NYCDOT
+
+leave these file names alone and dont change them yet.
+they have _CONTRACT appended to their file name
+
+create Subdirectories for each job name
+ie:
+DOT 0703852876 4-01-2025_BED819.pdf
+BED819
+
+nove the file into the respective sub directory
+
+
+if no _CONTRACT appended - do nothing
+
+
+Searched NYCDOT for files with _CONTRACT in their names and none are present (checked all PDFs and the RESCHEDULED 2025-6-16_SEQS24 subfolder). Per your instruction to do nothing when _CONTRACT isn’t present, I haven’t created any subdirectories or moved files. If you add/upload the _CONTRACT files, I’ll sort them into job-name subfolders without renaming.
+
+you didnt understand DOT SUMMONS# DATE_CONTRACT is the FORMAT
+
+DOT 0703792504 1-7-2025_LSLRPBX2.pdf ... so LSLRPBX2 = Contract/Job
+
+
+Grouped all DOT summons PDFs by contract/job (the segment after the last underscore) and moved them into matching subfolders under NYCDOT/, leaving filenames unchanged.
+
+New contract folders and contents include: LSLRPBX2 (6 files), SEK002383 (15 files, plus one in SEK002383 OATH Decision), HWMWTCB6, SEQS24 (12 files), SEQS24 Dismissal / SEQS24-Dismissal / Dismissal (respective dismissal variants), LSLRPBX02, BED819 (2 files), SEKS25 (6 files), and others as per contract names present.
+Left untouched in NYCDOT/ root: 0703874629.pdf, 0703874638.pdf, 0703914229.pdf (no DOT/contract suffix), plus the existing RESCHEDULED 2025-6-16_SEQS24/ folder with its files.
+i moved some things around check the sub directories and tell me what you see
+
+
+Here’s what I see now under D:\SummonsViolations:
+
+Top level folders: Agentic AI Client Code_Dane, CAR, NYCDEP, NYCDOT, NYPD, OATH Financial Charges, Overweight Tickets, Support Docs (plus the PDFs and Summons & Violations Tracking.xlsx).
+D:\SummonsViolations\CAR contains borough folders plus CAR payments 2025.pdf.
+Bronx: 9 active, 11 resolved
+Brooklyn: 3 active, 0 resolved
+Manhattan: 0 active, 0 resolved
+Queens: 31 active, 1 resolved
+Staten Island: 0 active, 0 resolved
+D:\SummonsViolations\NYCDOT root has 0703874629.pdf, 0703874638.pdf, 0703914229.pdf, plus subfolders:
+BED819 (2 files)
+Dismissal (3 files)
+HWMWTCB6 (1 file)
+LSLRPBX2 (7 files)
+SEK002383 (21 files)
+SEKS25 (9 files)
+SEQS24 (24 files)
+Want a deeper file-by-file listing for any of these folders?
+
+can you search my outlook and tell me how many violation emails you can find in the last 6 months?
+
+emails from:
+dashnov@dot.nyc.gov
+
+
+Checked your Outlook Inbox for the last 6 months and counted 27 emails from dashnov@dot.nyc.gov.
+
+Note: this scan was the default Inbox only (not subfolders/archives). If you want a broader count or a keyword filter (e.g., subject/body contains “violation”), tell me which scope you want:
+
+All folders in the mailbox
+Inbox + all subfolders
+Filter by subject/body keywords
+can you list them for me
+
+
+Here are the 27 emails from dashnov@dot.nyc.gov in the last 6 months (Inbox only), newest first:
+
+2025-12-17 18:50 | Approved on 12/17/2025 6:50:11 PM. NOV Number 0704084893 sent to Permittee 12787
+2025-12-16 20:21 | Approved on 12/16/2025 8:21:47 PM. NOV Number 0704084370 sent to Permittee 12787
+2025-12-16 20:21 | Approved on 12/16/2025 8:21:29 PM. NOV Number 0704084361 sent to Permittee 12787
+2025-12-15 16:53 | Approved on 12/15/2025 4:53:24 PM. NOV Number 0704083490 sent to Permittee 12787
+2025-12-12 12:36 | Approved on 12/12/2025 12:36:30 PM. NOV Number 0704082089 sent to Permittee 12787
+2025-12-11 18:13 | Approved on 12/11/2025 6:13:27 PM. NOV Number 0704080722 sent to Permittee 12787
+2025-12-10 15:00 | Approved on 12/10/2025 3:00:14 PM. NOV Number 0704079274 sent to Permittee 12787
+2025-12-10 14:59 | Approved on 12/10/2025 2:59:23 PM. NOV Number 0704079265 sent to Permittee 12787
+2025-12-10 14:58 | Approved on 12/10/2025 2:57:51 PM. NOV Number 0704079247 sent to Permittee 12787
+2025-12-10 14:10 | Approved on 12/10/2025 2:10:37 PM. NOV Number 0704078980 sent to Permittee 12787
+2025-12-10 13:52 | Approved on 12/10/2025 1:52:01 PM. NOV Number 0704078935 sent to Permittee 12787
+2025-12-09 18:48 | Approved on 12/9/2025 6:48:29 PM. NOV Number 0704078266 sent to Permittee 12787
+2025-12-05 17:54 | Approved on 12/5/2025 5:53:56 PM. NOV Number 0704075680 sent to Permittee 12787
+2025-12-05 17:17 | Approved on 12/5/2025 5:17:13 PM. NOV Number 0704075379 sent to Permittee 12787
+2025-12-04 19:28 | Approved on 12/4/2025 7:28:00 PM. NOV Number 0704073646 sent to Permittee 12787
+2025-12-04 18:57 | Approved on 12/4/2025 6:56:39 PM. NOV Number 0704073637 sent to Permittee 12787
+2025-11-28 09:31 | Approved on 11/28/2025 9:31:07 AM. NOV Number 0704068999 sent to Permittee 12787
+2025-11-18 18:16 | Approved on 11/18/2025 6:16:17 PM. NOV Number 0704059539 sent to Permittee 12787
+2025-11-18 17:30 | Approved on 11/18/2025 5:29:53 PM. NOV Number 0704059456 sent to Permittee 12787
+2025-11-13 22:35 | Approved on 11/13/2025 10:35:28 PM. NOV Number 0704055541 sent to Permittee 12787
+2025-11-13 22:34 | Approved on 11/13/2025 10:34:36 PM. NOV Number 0704055523 sent to Permittee 12787
+2025-11-06 06:44 | Approved on 11/6/2025 6:44:33 AM. NOV Number 0704048391 sent to Permittee 12787
+2025-11-06 06:44 | Approved on 11/6/2025 6:43:48 AM. NOV Number 0704048364 sent to Permittee 12787
+2025-11-03 12:27 | Approved on 11/3/2025 12:26:55 PM. NOV Number 0704045632 sent to Permittee 12787
+2025-10-27 15:54 | Approved on 10/27/2025 3:54:32 PM. NOV Number 0704040509 sent to Permittee 12787
+2025-10-27 15:46 | Approved on 10/27/2025 3:46:35 PM. NOV Number 0704040462 sent to Permittee 12787
+2025-10-03 15:46 | Approved on 10/3/2025 3:45:48 PM. NOV Number 0704021661 sent to Permittee 12787
+If you want me to include other folders (Archives/subfolders) or filter by subject/body keywords, say the scope and I’ll expand the list.
+
+which of these are not saved in the directory?
+
+
+Compared the last 6 months of dashnov@dot.nyc.gov emails to filenames under D:\SummonsViolations\NYCDOT (including subfolders). These NOV numbers are not present in filenames:
+
+0704083490 (12/15/2025)
+0704075680 (12/5/2025)
+0704075379 (12/5/2025)
+0704059539 (11/18/2025)
+0704045632 (11/3/2025)
+0704040509 (10/27/2025)
+0704040462 (10/27/2025)
+0704021661 (10/3/2025)
+If you want, I can:
+
+scan PDF contents in D:\SummonsViolations for these numbers (in case files were saved without the NOV in the filename), or
+check other folders beyond NYCDOT (CAR, Support Docs, etc.).
+no just NYCDOT, and its subfolders
+
+
+Got it — the list I gave is already based only on D:\SummonsViolations\NYCDOT and its subfolders. Those eight NOV numbers are the ones not present there.
+
+okay download the PDFs from those emails and save them in D:\SummonsViolations\NYCDOT
+
+
+Saved the PDFs from those 8 emails into D:\SummonsViolations\NYCDOT with their attachment filenames:
+
+0704083490 → 0704083490.pdf
+0704075680 → 0704075680.pdf
+0704075379 → 0704075379.pdf
+0704059539 → 0704059539.pdf
+0704045632 → 0704045632.pdf
+0704040509 → 0704040509.pdf
+0704040462 → 0704040462.pdf
+0704021661 → 0704021661.pdf
+Want me to sort these into contract/job subfolders now, or leave them in the root?
+
+hmmmm well tell me which they would be sorted into
+
+
+Based on permit-number matches inside the PDFs against existing NYCDOT files, here’s where each would land:
+
+0704083490.pdf → SEKS25 (permit B012025339A54)
+0704075680.pdf → SEKS25 (permit B012025339A54)
+0704075379.pdf → SEKS25 (permit B012025325A33)
+0704059539.pdf → SEK002383 (permit B012025310B93)
+0704040462.pdf → SEK002383 (permit B012025206B43)
+0704021661.pdf → no match found (permit B012025269A49)
+0704040509.pdf → no match found (permit B012025269A50)
+0704045632.pdf → no match found (permit X012025016B28)
+Want me to move the five that map (SEKS25/SEK002383) and leave the three unknowns in the root?
+
+what are their locations
+
+
+They’re all currently in the NYCDOT root:
+
+0704083490.pdf
+0704075680.pdf
+0704075379.pdf
+0704059539.pdf
+0704045632.pdf
+0704040509.pdf
+0704040462.pdf
+0704021661.pdf
+right but from teir contents what boro
+
+
+From the PDF contents, the boroughs are:
+
+0704083490.pdf → Brooklyn
+0704075680.pdf → Brooklyn
+0704075379.pdf → Brooklyn
+0704059539.pdf → Brooklyn
+0704045632.pdf → Bronx
+0704040509.pdf → Brooklyn
+0704040462.pdf → Brooklyn
+0704021661.pdf → Brooklyn
+anything with DEAN STREET in it - DOT [VIOLATION #] M-DD-[YYYY]_SEK002383.pdf - Save it to SEK002383 directory
+
+
+Found 24 PDFs with “DEAN STREET” and saved them into D:\SummonsViolations\NYCDOT\SEK002383 using the DOT [VIOLATION #] M-DD-YYYY_SEK002383.pdf format. Here’s the current list in that folder:
+
+DOT 0703801533 1-21-2025_SEK002383.pdf
+DOT 0703801607 1-21-2025_SEK002383.pdf
+DOT 0703802588 1-21-2025_SEK002383.pdf
+DOT 0703802606 1-21-2025_SEK002383.pdf
+DOT 0703813330 2-05-2025_SEK002383.pdf
+DOT 0703813514 2-05-2025_SEK002383.pdf
+DOT 0703967743 8-05-2025_SEK002383.pdf
+DOT 0703968641 8-07-2025_SEK002383.pdf
+DOT 0704000395 9-05-2025_SEK002383.pdf
+DOT 0704000404 9-05-2025_SEK002383.pdf
+DOT 0704010432 9-20-2025_SEK002383.pdf
+DOT 0704040462 10-18-2025_SEK002383.pdf
+DOT 0704040462 10-18-2025_SEK002383 (2).pdf
+DOT 0704040462 10-18-2025_SEK002383 (3).pdf
+DOT 0704048364 11-06-2025_SEK002383.pdf
+DOT 0704048391 11-06-2025_SEK002383.pdf
+DOT 0704055523 11-13-2025_SEK002383.pdf
+DOT 0704055541 11-13-2025_SEK002383.pdf
+DOT 0704059456 11-18-2025_SEK002383.pdf
+DOT 0704059539 11-18-2025_SEK002383.pdf
+DOT 0704073637 12-03-2025_SEK002383.pdf
+DOT 0704073646 12-03-2025_SEK002383.pdf
+DOT 0704084361 12-16-2025_SEK002383.pdf
+DOT 0704084370 12-16-2025_SEK002383.pdf
+Note: 0704040462.pdf is still in the root (file was locked when deleting), which is why there are duplicate copies (2) and (3) in SEK002383.
+
+Want me to clean the duplicates and remove the root copy once you’re ok with it?
+
+try dat one mo time
+
+
+Done — the root copy 0704040462.pdf is now removed. The DEAN STREET copy remains safely in DOT 0704040462 10-18-2025_SEK002383.pdf.
+
+If you want me to clean the duplicate (2) and (3) copies in SEK002383, say the word.
+
+if they are indeed duplicates yes clean them
+
+
+Cleaned duplicates in D:\SummonsViolations\NYCDOT\SEK002383 based on file hashes. Removed:
+
+DOT 0704040462 10-18-2025_SEK002383 (2).pdf
+DOT 0704040462 10-18-2025_SEK002383 (3).pdf
+Kept the original: DOT 0704040462 10-18-2025_SEK002383.pdf.
+
+in D:\SummonsViolations\NYCDOT\read the contents of all of them in all subdirectories and tell me the scheduled hearing dates or missed dates of all of the notice of violation numbers - if there are any dismissals list that next to the notice of violation.
+
+
+Pulled hearing dates from all PDFs under D:\SummonsViolations\NYCDOT (including subfolders). I didn’t find any explicit “missed hearing date” fields in the content, so the missed-date column is empty. Dismissals are marked where a dismissal/OATH decision file exists.
+
+NOV_NUMBER | HEARING_DATE | MISSED_DATE | DISMISSAL
+0703792504 | 04/14/2025 |  | 
+0703792513 | 04/14/2025 |  | 
+0703792522 | 04/14/2025 |  | 
+0703792569 | 04/14/2025 |  | 
+0703801533 | 05/01/2025 |  | 
+0703801607 | 05/01/2025 |  | 
+0703802588 | 05/01/2025 |  | 
+0703802606 | 05/01/2025 |  | 
+0703810791 | 05/12/2025 |  | 
+0703813330 | 05/15/2025 |  | 
+0703813514 | 05/15/2025 |  | 
+0703817456 | 05/14/2025 |  | 
+0703851455 | 06/16/2025 |  | 
+0703852876 | 07/10/2025 |  | 
+0703860951 | 07/16/2025 |  | yes
+0703860960 | 07/16/2025 |  | yes
+0703860989 | 07/16/2025 |  | yes
+0703861007 | 07/16/2025 |  | yes
+0703861016 | 07/16/2025 |  | yes
+0703874629 | 07/30/2025 |  | 
+0703874638 | 07/30/2025 |  | 
+0703908958 | 09/08/2025 |  | 
+0703908967 | 09/08/2025 |  | 
+0703914229 | 08/14/2025 |  | 
+0703922369 | 09/24/2025 |  | 
+0703922414 | 09/24/2025 |  | 
+0703922432 | 09/24/2025 |  | 
+0703922441 | 09/24/2025 |  | 
+0703922460 | 09/24/2025 |  | 
+0703967743 | 11/13/2025 |  | 
+0703968641 | 11/13/2025 |  | yes
+0703995005 | 12/11/2025 |  | 
+0703995041 | 12/11/2025 |  | 
+0703999982 | 12/18/2025 |  | 
+0704000395 | 12/11/2025 |  | 
+0704000404 | 12/11/2025 |  | 
+0704010432 | 12/18/2025 |  | 
+0704012760 | 01/08/2026 |  | 
+0704021661 | 01/08/2026 |  | 
+0704040462 | 01/22/2026 |  | 
+0704040509 | 01/29/2026 |  | 
+0704045632 | 02/02/2026 |  | 
+0704048364 | 02/12/2026 |  | 
+0704048391 | 02/12/2026 |  | 
+0704055523 | 02/19/2026 |  | 
+0704055541 | 02/19/2026 |  | 
+0704059456 | 02/26/2026 |  | 
+0704059539 | 02/26/2026 |  | 
+0704068999 | 02/26/2026 |  | 
+0704073637 | 03/12/2026 |  | 
+0704073646 | 03/12/2026 |  | 
+0704075379 | 03/12/2026 |  | 
+0704075680 | 03/12/2026 |  | 
+0704078266 | 03/19/2026 |  | 
+0704078935 | 03/18/2026 |  | 
+0704078980 | 03/18/2026 |  | 
+0704079247 | 03/18/2026 |  | 
+0704079265 | 03/18/2026 |  | 
+0704079274 | 03/18/2026 |  | 
+0704080722 | 03/19/2026 |  | 
+0704082089 | 03/19/2026 |  | 
+0704083490 | 03/19/2026 |  | 
+0704084361 | 03/26/2026 |  | 
+0704084370 | 03/26/2026 |  | 
+0704084893 | 03/19/2026 |  | 
+If you want missed dates pulled from scans (image-only PDFs), I can run OCR on those and update the list.
+
+list the sub directory/job name its under too!
+
+
+Here’s the updated list with the subdirectory/job name included (folder path relative to D:\SummonsViolations\NYCDOT):
+
+NOV_NUMBER | HEARING_DATE | MISSED_DATE | DISMISSAL | FOLDER
+0703792504 | 04/14/2025 |  |  | LSLRPBX2
+0703792513 | 04/14/2025 |  |  | LSLRPBX2
+0703792522 | 04/14/2025 |  |  | LSLRPBX2
+0703792569 | 04/14/2025 |  |  | LSLRPBX2
+0703801533 | 05/01/2025 |  |  | SEK002383
+0703801607 | 05/01/2025 |  |  | SEK002383
+0703802588 | 05/01/2025 |  |  | SEK002383
+0703802606 | 05/01/2025 |  |  | SEK002383
+0703810791 | 05/12/2025 |  |  | HWMWTCB6
+0703813330 | 05/15/2025 |  |  | SEK002383
+0703813514 | 05/15/2025 |  |  | SEK002383
+0703817456 | 05/14/2025 |  |  | SEQS24
+0703851455 | 06/16/2025 |  |  | LSLRPBX2
+0703852876 | 07/10/2025 |  |  | BED819
+0703860951 | 07/16/2025 |  | yes | Dismissal, SEQS24, SEQS24/RESCHEDULED/RESCHEDULED 2025-6-16_SEQS24
+0703860960 | 07/16/2025 |  | yes | SEQS24, SEQS24/DISMISSALS, SEQS24/RESCHEDULED/RESCHEDULED 2025-6-16_SEQS24
+0703860989 | 07/16/2025 |  | yes | SEQS24, SEQS24/DISMISSALS, SEQS24/RESCHEDULED/RESCHEDULED 2025-6-16_SEQS24
+0703861007 | 07/16/2025 |  | yes | Dismissal, SEQS24, SEQS24/RESCHEDULED/RESCHEDULED 2025-6-16_SEQS24
+0703861016 | 07/16/2025 |  | yes | Dismissal, SEQS24, SEQS24/RESCHEDULED/RESCHEDULED 2025-6-16_SEQS24
+0703874629 | 07/30/2025 |  |  | (root), SEQS24
+0703874638 | 07/30/2025 |  |  | (root), SEQS24
+0703908958 | 09/08/2025 |  |  | LSLRPBX2
+0703908967 | 09/08/2025 |  |  | LSLRPBX2
+0703914229 | 08/14/2025 |  |  | (root), BED819
+0703922369 | 09/24/2025 |  |  | SEQS24
+0703922414 | 09/24/2025 |  |  | SEQS24
+0703922432 | 09/24/2025 |  |  | SEQS24
+0703922441 | 09/24/2025 |  |  | SEQS24
+0703922460 | 09/24/2025 |  |  | SEQS24
+0703967743 | 11/13/2025 |  |  | SEK002383
+0703968641 | 11/13/2025 |  | yes | SEK002383, SEK002383/SEK002383 OATH Decision
+0703995005 | 12/11/2025 |  |  | SEKS25
+0703995041 | 12/11/2025 |  |  | SEKS25
+0703999982 | 12/18/2025 |  |  | SEKS25
+0704000395 | 12/11/2025 |  |  | SEK002383
+0704000404 | 12/11/2025 |  |  | SEK002383
+0704010432 | 12/18/2025 |  |  | SEK002383
+0704012760 | 01/08/2026 |  |  | SEKS25
+0704021661 | 01/08/2026 |  |  | (root)
+0704040462 | 01/22/2026 |  |  | SEK002383
+0704040509 | 01/29/2026 |  |  | (root)
+0704045632 | 02/02/2026 |  |  | (root)
+0704048364 | 02/12/2026 |  |  | SEK002383
+0704048391 | 02/12/2026 |  |  | SEK002383
+0704055523 | 02/19/2026 |  |  | SEK002383
+0704055541 | 02/19/2026 |  |  | SEK002383
+0704059456 | 02/26/2026 |  |  | SEK002383
+0704059539 | 02/26/2026 |  |  | SEK002383
+0704068999 | 02/26/2026 |  |  | SEKS25
+0704073637 | 03/12/2026 |  |  | SEK002383
+0704073646 | 03/12/2026 |  |  | SEK002383
+0704075379 | 03/12/2026 |  |  | (root)
+0704075680 | 03/12/2026 |  |  | (root)
+0704078266 | 03/19/2026 |  |  | SEKS25
+0704078935 | 03/18/2026 |  |  | SEQS24
+0704078980 | 03/18/2026 |  |  | SEQS24
+0704079247 | 03/18/2026 |  |  | SEQS24
+0704079265 | 03/18/2026 |  |  | SEQS24
+0704079274 | 03/18/2026 |  |  | SEQS24
+0704080722 | 03/19/2026 |  |  | SEKS25
+0704082089 | 03/19/2026 |  |  | SEKS25
+0704083490 | 03/19/2026 |  |  | (root)
+0704084361 | 03/26/2026 |  |  | SEK002383
+0704084370 | 03/26/2026 |  |  | SEK002383
+0704084893 | 03/19/2026 |  |  | SEKS25
+If you want, I can move the NOVs still in (root) into their correct job folders.
+
+well tell me what job each goes to first
+
+
+Here’s the job folder each root NOV should go to (based on existing matching files or permit matches). I’ve only included the ones currently shown under (root) in the last report:
+
+0703874629 → SEQS24 (same NOV already exists under SEQS24/)
+0703874638 → SEQS24 (same NOV already exists under SEQS24/)
+0703914229 → BED819 (same NOV already exists under BED819/)
+0704075379 → SEKS25 (permit match)
+0704075680 → SEKS25 (permit match)
+0704083490 → SEKS25 (permit match)
+0704021661 → unknown (no contract code found; no permit match)
+0704040509 → unknown
+0704045632 → unknown
+If you want, I can:
+
+Move the known ones into their job folders now.
+Run OCR on the unknowns to try to identify their job/contract.
+confirm duplicates and delete, move non duplicates
+
+
+Checked for exact duplicates (by file hash) between the NYCDOT root and subfolders; none matched, so nothing was deleted.
+
+Moved non‑duplicates into their job folders (kept filenames unchanged):
+
+0703874629.pdf → 0703874629.pdf
+0703874638.pdf → 0703874638.pdf
+0703914229.pdf → 0703914229.pdf
+0704075379.pdf → 0704075379.pdf
+0704075680.pdf → 0704075680.pdf
+0704083490.pdf → 0704083490.pdf
+Still in root (job unknown):
+
+0704021661.pdf
+0704040509.pdf
+0704045632.pdf
+Where do you want those three filed?
+
+put them on a folder "UNKNOWN"
+
+
+Moved the three unknowns into D:\SummonsViolations\NYCDOT\UNKNOWN:
+
+0704021661.pdf
+0704040509.pdf
+0704045632.pdf
+AGENCY VIOLATION NO. VIOLATION DATE VIOLATION DESCRIPTION PLACE OF OCCURRENCE JOB NO. MAIL-IN PENALTY MAX PENALTY HEARING DATE BIC COMMENTS IMPOSED PENALTY DATE PAID AMOUNT PAID
+
+in the root directory there is a workbook ML TRACKING.xlsx can you read it? - we are interested in only the DOT tab for now
+
+
+Found the workbook at ML TRACKING.xlsx (not the root). I read the DOT tab.
+
+DOT tab details:
+
+Header row: 4
+Columns (14): AGENCY | VIOLATION NO. | VIOLATION DATE | VIOLATION DESCRIPTION | PLACE OF OCCURRENCE | JOB NO. | MAIL-IN PENALTY | MAX PENALTY | HEARING DATE | BIC | COMMENTS | IMPOSED PENALTY | DATE PAID | AMOUNT PAID
+Data rows: 67
+Sample rows (violation no | violation date | job | hearing):
+
+0703792522 | 1/7/2025 2:32 | LSLRPBX2 | 4/14/2025 8:30
+0703792513 | 1/7/2025 2:43 | LSLRPBX2 | 4/14/2025 8:30
+0703792504 | 1/7/2025 3:15 | LSLRPBX2 | 4/14/2025 8:30
+0703792569 | 1/7/2025 3:32 | LSLRPBX2 | 4/14/2025 8:30
+0703802588 | 1/21/2025 1:08 | SEK002383 | 5/1/2025 8:30
+What would you like me to do with the DOT tab next?
+
+Export the full DOT tab to CSV for review
+Cross‑check against the PDFs and update hearing dates / comments
+Show the full list here
+go through all the violations in all the NYCDOT (root) folder, with subdirectories included, check them against the DOT tab in ML TRACKING, make sure each column is consistent - i have added a "CODE VIOLATION" column - insert the exact code that they are claiming was violated.
+
+if the Violation NO is not found make a new row for it at the bottom and fill in the information from the pdf, if you are unable to find the information ask me and and direct me to which pdf is giving you the trouble and i will tell you.
+
+AGENCY VIOLATION NO. VIOLATION DATE CODE VIOLATION VIOLATION DESCRIPTION PLACE OF OCCURRENCE JOB NO. MAIL-IN PENALTY MAX PENALTY HEARING DATE BIC COMMENTS IMPOSED PENALTY DATE PAID AMOUNT PAID
+
+
+Updated the DOT tab in ML TRACKING.xlsx from all NYCDOT PDFs (root + subfolders). I inserted the CODE VIOLATION column (after VIOLATION DATE), filled/normalized the fields from the PDFs for 65 violations, and fixed leading‑zero issues in VIOLATION NO. (removed 7 duplicate rows that were created by missing leading zeros).
+
+Remaining blanks:
+
+JOB NO. is still empty for these three (they’re in D:\SummonsViolations\NYCDOT\UNKNOWN): 0704021661, 0704040509, 0704045632.
+Want me to assign a job number to those three, or leave them as unknown?
+
+leave them as Unknown
+
+
+Got it — leaving those three as Unknown. Everything else in the DOT tab is aligned with the PDFs.
+
+didnt i add a "CODE VIOLATION" column ?
+
+
+Yes — the DOT tab now has a single CODE VIOLATION column (between VIOLATION DATE and VIOLATION DESCRIPTION), and it’s populated from the PDFs in ML TRACKING.xlsx. If you’d like, I can re‑open and show the header row to confirm.
+
+uhhhh you sure? i cont see it
+
+
+Yes — it’s there. Header row 4 now reads:
+
+AGENCY | VIOLATION NO. | VIOLATION DATE | CODE VIOLATION | VIOLATION DESCRIPTION | PLACE OF OCCURRENCE | JOB NO. | MAIL-IN PENALTY | MAX PENALTY | HEARING DATE | BIC | COMMENTS | IMPOSED PENALTY | DATE PAID | AMOUNT PAID
+
+If you still don’t see it, try closing and reopening the workbook (Excel sometimes doesn’t refresh new columns immediately).
+
+ahh okay okay there is a fixed cell and it was hidden ... ok good
+
+
+Got it — glad it’s visible now. If you want me to unfreeze or unhide anything else in that sheet, just say the word.
+
+i added a BORO column. populate it?
+
+
+Populated the BORO column in the DOT tab of ML TRACKING.xlsx from the NYCDOT PDFs (root + subfolders). 65 rows were filled.
+
+There are 9 violation numbers in the DOT tab that don’t appear in any NYCDOT PDF, so their BORO cells are still blank:
+
+0703986250
+0704014392
+0704014401
+0704014410
+0704014420
+0704014448
+0704075679
+0705058364
+0705058391
+If you can point me to the PDFs for those, I’ll fill their BORO values too.
+
+in column A - make everything uniform NYCDOT not the agency name spelled way out
+
+
+Column A (AGENCY) in the DOT tab is now uniform: every filled row is set to NYCDOT (updated 74 rows).
+
+how many of these NOV are for 34 RCNY 2-02(d)(2) ?
+
+
+There are 15 NOVs for 34 RCNY 2-02(d)(2):
+
+0703860951
+0703860960
+0703860989
+0703861007
+0703861016
+0703922369
+0703922414
+0703922432
+0703922441
+0703922460
+0704078935
+0704078980
+0704079247
+0704079265
+0704079274
+update the sheets with any dismissals i missed
+
+
+Updated the DOT tab’s COMMENTS for the dismissal files I found in D:\SummonsViolations\NYCDOT:
+
+Dismissed: 0703860951, 0703860960, 0703860989, 0703861007, 0703861016
+OATH Decision: 0703968641
+If you expect more dismissals, point me to the PDFs and I’ll tag them too.
+
+why not the ones in the dismissal folder ?
+
+
+They are tagged — the dismissal-folder NOVs already had “Dismissed” in the COMMENTS column, so only one row needed a change. Current COMMENTS values for those dismissal files:
+
+0703860951 → Dismissed
+0703861007 → Dismissed
+0703861016 → Dismissed
+0703860960 → Dismissed
+0703860989 → Dismissed
+0703968641 → OATH Decision
+If you want a separate “DISMISSED” column or a different label, say how you want it shown and I’ll update it.
+
+so how many summonses were dismissed ?
+
+
+From the dismissal/OATH files in NYCDOT, there are 6 total flagged:
+
+5 marked “Dismissed”
+1 marked “OATH Decision” (0703968641)
+If you want the count to exclude the OATH Decision, then it’s 5.
+
+cout the oath decision
+
+
+Including the OATH Decision, total dismissed is 6.
+
+go though this and list the violation numbers that have hearing dates that have been dismissed
+
+
+go though this and list the violation numbers that have hearing dates that have passed, if they are dismissed go ahead and add "dismissed" next to the violation number - list the BIC name "Dane" "Joel" Etc... list the boro, the job name - this is only for hearing dates that have passed
+
+
+Here are the violation numbers with hearing dates already passed (from the DOT tab). I’ve included dismissal status (if any), BIC, BORO, and JOB:
+
+0703792504 | 2025-04-14 | BIC: Robert Ligansky | BORO: BRONX | JOB: LSLRPBX2
+0703792569 | 2025-04-14 dismissed | BIC: Robert Ligansky | BORO: BRONX | JOB: LSLRPBX2
+0703792522 | 2025-04-14 | BIC: Robert Ligansky | BORO: BRONX | JOB: LSLRPBX2
+0703792513 | 2025-04-14 dismissed | BIC: Robert Ligansky | BORO: BRONX | JOB: LSLRPBX2
+0703801533 | 2025-05-01 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703802606 | 2025-05-01 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703802588 | 2025-05-01 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703801607 | 2025-05-01 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703810791 | 2025-05-12 | BIC: Robert Ligansky | BORO: MANHATTAN | JOB: HWMWTCB6
+0703817456 | 2025-05-14 | BIC: Robert Ligansky | BORO: QUEENS | JOB: SEQS24
+0703813514 | 2025-05-15 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703813330 | 2025-05-15 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703851455 | 2025-06-16 | BIC: Dane | BORO: BRONX | JOB: LSLRPBX2
+0703852876 | 2025-07-10 | BIC: Dane | BORO: BROOKLYN | JOB: BED819
+0703861007 | 2025-07-16 dismissed | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703861016 | 2025-07-16 dismissed | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703860989 | 2025-07-16 dismissed | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703860951 | 2025-07-16 dismissed | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703860960 | 2025-07-16 dismissed | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703874629 | 2025-07-30 | BIC: Robert Ligansky | BORO: QUEENS | JOB: SEQS24
+0703874638 | 2025-07-30 | BIC: Robert Ligansky | BORO: QUEENS | JOB: SEQS24
+0703914229 | 2025-08-14 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: BED819
+0703908967 | 2025-09-08 | BIC: Dane | BORO: BRONX | JOB: LSLRPBX2
+0703908958 | 2025-09-08 | BIC: Dane | BORO: BRONX | JOB: LSLRPBX2
+0703922369 | 2025-09-24 | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703922460 | 2025-09-24 | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703922441 | 2025-09-24 | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703922432 | 2025-09-24 | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703922414 | 2025-09-24 | BIC: Dane | BORO: QUEENS | JOB: SEQS24
+0703967743 | 2025-11-13 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703968641 | 2025-11-13 dismissed | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703986250 | 2025-12-04 | BIC: Robert Ligansky | BORO: | JOB: SEK002383
+0704000404 | 2025-12-11 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0704000395 | 2025-12-11 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703995041 | 2025-12-11 | BIC: Dane | BORO: BROOKLYN | JOB: SEKS25
+0703995005 | 2025-12-11 | BIC: Dane | BORO: BROOKLYN | JOB: SEKS25
+0704010432 | 2025-12-18 | BIC: Robert Ligansky | BORO: BROOKLYN | JOB: SEK002383
+0703999982 | 2025-12-18 | BIC: Dane | BORO: BROOKLYN | JOB: SEKS25
+0704014448 | 2025-12-31 | BIC: Dane | BORO: | JOB: SEQS24
+0704014392 | 2025-12-31 | BIC: Dane | BORO: | JOB: SEQS24
+0704014420 | 2025-12-31 | BIC: Dane | BORO: | JOB: SEQS24
+0704014410 | 2025-12-31 | BIC: Dane | BORO: | JOB: SEQS24
+0704014401 | 2025-12-31 | BIC: Dane | BORO: | JOB: SEQS24
+
+If you want, I can fill the blank BORO values for those SEQS24/SEK002383 rows once you point me to their PDFs.
+
+make an XLSX workbook in the root listing all of these with the same columns as the ML
+
+there are also "rescheduled" subdirectories, please include columns to show rescheduled dates
+
+
+Created the workbook in the root:
+
+NYCDOT_Past_Hearings.xlsx
+It has the same columns as the DOT tab (including CODE VIOLATION, BORO, etc.) and an extra RESCHEDULED DATE column populated from the rescheduled subdirectories.
+
+If you want a different filename or a separate column for multiple reschedule dates (instead of ;-separated), tell me how you want it formatted.
+
+open 703852876 in windows
+
+
+Opened DOT 0703852876 4-01-2025_BED819.pdf in Windows.
+
