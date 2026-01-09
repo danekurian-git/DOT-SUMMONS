@@ -1,0 +1,34 @@
+# Summons and case documents
+*.json
+BED819/
+Dismissal/
+HWMWTCB6/
+LSLRPBX2/
+SEK002383/
+SEKS25/
+SEQS24/
+UNKNOWN/
+NDH6SA~M
+
+# Test/debug files
+*.html
+response_debug.html
+response_test2.html
+full_page_source.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+batch_log.txt
+enhanced_log.txt
+enhanced_offline_log.txt
+
+# IDE
+.vscode/
+.idea/
