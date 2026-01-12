@@ -46,6 +46,24 @@ Then enter summons number(s) when prompted:
 
 Results are saved to `summons_results.json`
 
+### Option 3: Email Monitor (Microsoft Graph)
+
+Download NOV PDF attachments from `dashnov@dot.nyc.gov` using Microsoft Graph.
+
+**Setup (one-time):**
+- Create an Azure app registration (public client) with delegated `Mail.Read`
+- Enable "Allow public client flows"
+- Set environment variables:
+  - `GRAPH_CLIENT_ID`
+  - `GRAPH_TENANT_ID`
+
+**Run (from repo root):**
+```bash
+python AI_Code/email_monitor_graph.py --sender dashnov@dot.nyc.gov --since-days 180
+```
+
+By default, PDFs are saved to `D:\SummonsViolations\NYCDOT` (repo root).
+
 ## Excel File Format
 
 The script can read summons numbers from any Excel file. It will try to auto-detect the column, but you can also specify it in the code.
